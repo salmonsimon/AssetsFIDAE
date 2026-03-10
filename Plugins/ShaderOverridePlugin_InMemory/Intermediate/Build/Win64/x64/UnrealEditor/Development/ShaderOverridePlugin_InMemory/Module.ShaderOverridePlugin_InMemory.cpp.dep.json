@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\acfiv\\projectultimate\\plugins\\shaderoverrideplugin_inmemory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderoverrideplugin_inmemory\\module.shaderoverrideplugin_inmemory.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\acfiv\\projectultimate\\intermediate\\build\\win64\\x64\\projectultimateeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "f:\\acfiv\\projectultimate\\plugins\\shaderoverrideplugin_inmemory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderoverrideplugin_inmemory\\definitions.shaderoverrideplugin_inmemory.h",
+            "f:\\acfiv\\projectultimate\\plugins\\shaderoverrideplugin_inmemory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shaderoverrideplugin_inmemory\\permoduleinline.gen.cpp",
+            "f:\\unrealinst\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
+            "f:\\acfiv\\projectultimate\\plugins\\shaderoverrideplugin_inmemory\\source\\shaderoverrideplugin_inmemory\\private\\shaderoverrideplugin_inmemory.cpp",
+            "f:\\acfiv\\projectultimate\\plugins\\shaderoverrideplugin_inmemory\\source\\shaderoverrideplugin_inmemory\\public\\shaderoverrideplugin_inmemory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

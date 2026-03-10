@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\desktop\\temp\\assetsfidae\\plugins\\shaderoverrideplugin_inmemory\\source\\shaderoverrideplugin_inmemory\\private\\shaderoverrideplugin_inmemory.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\desktop\\temp\\assetsfidae\\intermediate\\build\\win64\\x64\\assetsfidae\\development\\engine\\sharedpch.engine.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\desktop\\temp\\assetsfidae\\plugins\\shaderoverrideplugin_inmemory\\intermediate\\build\\win64\\x64\\unrealgame\\development\\shaderoverrideplugin_inmemory\\definitions.shaderoverrideplugin_inmemory.h",
+            "d:\\desktop\\temp\\assetsfidae\\plugins\\shaderoverrideplugin_inmemory\\source\\shaderoverrideplugin_inmemory\\public\\shaderoverrideplugin_inmemory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
