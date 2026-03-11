@@ -71,3 +71,9 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# --- Allow plugin precompiled binaries ---
+!Plugins/**/Binaries/**
+!Plugins/**/*.dll
+!Plugins/**/*.pdb
+!Plugins/**/*.modules

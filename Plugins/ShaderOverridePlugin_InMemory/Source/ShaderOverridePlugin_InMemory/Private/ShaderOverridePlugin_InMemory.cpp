@@ -186,7 +186,27 @@ bool FMemoryFileHandle::Read(uint8* Destination, int64 BytesToRead)
 
 bool FMemoryFileHandle::ReadAt(uint8* Destination, int64 BytesToRead, int64 Offset)
 {
-	return false;
+	if (!bIsOpen)
+	{
+		return false;
+	}
+
+	if (Offset < 0 || Offset > Data.Num())
+	{
+		return false;
+	}
+
+	int64 BytesAvailable = Data.Num() - Offset;
+	int64 BytesToCopy = FMath::Min(BytesToRead, BytesAvailable);
+	
+	if (BytesToCopy <= 0)
+	{
+		return false;
+	}
+
+	FMemory::Memcpy(Destination, Data.GetData() + Offset, BytesToCopy);
+
+	return true;
 }
 
 bool FMemoryFileHandle::Write(const uint8* Source, int64 BytesToWrite)
@@ -338,7 +358,7 @@ bool FShaderOverridePlatformFile::SetReadOnly(const TCHAR* Filename, bool bIsRea
 
 FDateTime FShaderOverridePlatformFile::GetTimeStamp(const TCHAR* Filename)
 {
-	return FDateTime();
+	return InnerFile->GetTimeStamp(Filename);
 }
 
 void FShaderOverridePlatformFile::SetTimeStamp(const TCHAR* Filename, FDateTime DateTime)
@@ -417,10 +437,10 @@ FFileStatData FShaderOverridePlatformFile::GetStatData(const TCHAR* FilenameOrDi
 			return FFileStatData(
 				FDateTime::UtcNow(),
 				FDateTime::UtcNow(),
+				FDateTime::UtcNow(),
 				Bytes.Num(),
-				true,  // bIsFile
-				true,  // bIsReadOnly
-				false  // bIsValid
+				false,  // bIsInDirectory
+				true  // bIsReadOnly
 			);
 		}
 	}

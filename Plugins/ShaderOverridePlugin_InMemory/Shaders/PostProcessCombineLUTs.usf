@@ -29,7 +29,7 @@
 //   5 = Custom (see CustomTonemapOperator below)
 
 
-#define CUSTOM_TONEMAP_MODE 4  // Change this to switch tonemappers
+#define CUSTOM_TONEMAP_MODE 1  // Change this to switch tonemappers
 
 
 // 0: Default, 1: Golden, 2: Punchy
