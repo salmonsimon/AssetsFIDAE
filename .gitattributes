@@ -3,17 +3,17 @@
 [attr]lock    filter=lfs diff=lfs merge=lfs -text 
 
 # Unreal Engine binaries (lock required)
-*.uasset lock
-*.umap   lock
-*.ubulk  lock
-*.uexp   lock
+*.uasset 
+*.umap   
+*.ubulk  
+*.uexp   
 # Other binaries you want to lock (optional; you decide policy)
-*.fbx  lock
-*.wav  lock
-*.mp4  lock
-*.png  lock
-*.jpg  lock
-*.tiff lock
+*.fbx  
+*.wav  
+*.mp4  
+*.png  
+*.jpg  
+*.tiff 
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.ubulk filter=lfs diff=lfs merge=lfs -text
