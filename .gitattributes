@@ -1,19 +1,19 @@
 # Base LFS behaviors
 [attr]lfs     filter=lfs diff=lfs merge=lfs -text
-[attr]lock    filter=lfs diff=lfs merge=lfs -text 
+[attr]lock    filter=lfs diff=lfs merge=lfs -text lockable
 
 # Unreal Engine binaries (lock required)
-*.uasset 
-*.umap   
-*.ubulk  
-*.uexp   
+*.uasset lfs
+*.umap   lfs
+*.ubulk  lfs
+*.uexp   lfs
 # Other binaries you want to lock (optional; you decide policy)
-*.fbx  
-*.wav  
-*.mp4  
-*.png  
-*.jpg  
-*.tiff 
+*.fbx  lfs
+*.wav  lfs
+*.mp4  lfs
+*.png  lfs
+*.jpg  lfs
+*.tiff lfs
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.ubulk filter=lfs diff=lfs merge=lfs -text
