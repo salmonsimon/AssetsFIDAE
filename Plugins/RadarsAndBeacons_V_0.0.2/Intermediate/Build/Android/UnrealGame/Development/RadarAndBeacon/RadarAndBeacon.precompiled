@@ -1,0 +1,16 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\Module.RadarAndBeacon.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\Module.RadarAndBeacon.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\Module.RadarAndBeacon.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\Module.RadarAndBeacon.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\RadarAndBeacon.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\RBSubsystemBase.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\RadarAndBeacon.cpp.o",
+		"..\\..\\..\\a\\UnrealGame\\Development\\RadarAndBeacon\\RBSubsystemBase.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\RadarAndBeacon.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\RBSubsystemBase.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\RadarAndBeacon.cpp.o",
+		"..\\..\\..\\x\\UnrealGame\\Development\\RadarAndBeacon\\RBSubsystemBase.cpp.o"
+	]
+}

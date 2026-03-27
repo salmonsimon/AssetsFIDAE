@@ -1,0 +1,7 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RadarAndBeacon\\Module.RadarAndBeacon.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RadarAndBeacon\\RadarAndBeacon.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\RadarAndBeacon\\RBSubsystemBase.cpp.obj"
+	]
+}

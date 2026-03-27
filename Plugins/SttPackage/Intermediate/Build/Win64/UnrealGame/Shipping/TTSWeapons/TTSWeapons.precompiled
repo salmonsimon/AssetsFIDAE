@@ -1,0 +1,14 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\Module.TTSWeapons.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\Module.TTSWeapons.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\TTSWeapons.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\BP_PoolableActorBase_stt.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\BPC_PoolManager_stt.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\BpcMagazineManager.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\BpcPoolBase.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\BulletShell.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\ACountdownTimerActor.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\TTSWeapons\\ACountupTimerActor.cpp.obj"
+	]
+}
